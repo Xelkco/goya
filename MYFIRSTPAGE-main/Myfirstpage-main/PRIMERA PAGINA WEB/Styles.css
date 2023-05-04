@@ -1,0 +1,94 @@
+
+.Titulo {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Primersubtitulo {
+  font-size: 18px;
+  text-align: left;
+  color: black;
+  font: weight 400px;
+  margin-left: 500px;
+}
+
+.Parrafo_1 {
+  font-size: 12px;
+  font: weight 400px;
+  margin-left: 400px;
+  width: 600px;
+  height: 600px;
+}
+
+.SegundoSubtitulo {
+  font-size: 18px;
+  text-align: left;
+  color: black;
+  font: weight 400px;
+  margin-left: 500px;
+}
+.Parrafo_2 {
+  font-size: 12px;
+  font: weight 400px;
+  margin-left: 400px;
+  width: 600px;
+  height: 600px;
+}
+
+.imagendeparrafo2 {
+  float: right;
+  margin-right: 200px;
+
+}
+
+
+.footer {
+  font-size: 10px;
+}
+
+.fotodegoya {
+  float: right;
+  margin-right: 400px;
+  
+
+}
+
+.video {
+  padding:20px ;
+  box-shadow: px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  width: 1000px;
+  height: 500px;
+  margin-left:600px;
+  
+}
+
+.imagen3 {
+  float: right;
+  margin-left: 100px;
+}
+
+.menu{
+  list-style: none;
+  padding: 0;
+  background-color: antiquewhite;
+  width: 90%;
+  max-width: 1000px;
+  margin:auto;
+}
+.menu li a{
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  display: block ;
+}
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+.menu li a:hover {
+  background-color: beige;
+} 
+
+

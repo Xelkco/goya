@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulario</title>
+    <link
+      rel="stylesheet"
+      href="/Myfirstpage-main/PRIMERA PAGINA WEB/formulariostyles.css"
+    />
+    <style>
+      body {
+        background-image: url("img/1.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    
+    <form>
+      <h2>Contact us</h2>
+
+      <section class="input-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Name" />
+
+        <label for="Phone">phone</label>
+        <input type="tel" name="phone" id="phone" placeholder="Phone" />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" />
+
+        <label for="message">message</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="5"
+          placeholder="message"
+        ></textarea>
+
+        <section class="font-txt">
+          <a href="#">Privacy politics</a>
+          <a href="#">Conditions and terms</a>
+        </section>
+
+        <input class="btn" type="submit" value="Send" />
+      </section>
+    </form>
+  </body>
+</html>
